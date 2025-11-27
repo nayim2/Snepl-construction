@@ -10,15 +10,17 @@ import { Route, Routes } from 'react-router-dom'
 import Overview from './About/Overview'
 import HumanResource from './About/Resources'
 import Footer from './Home/Footer'
+import DirectorMessage from './About/DirectorMessage'
 
 const App = () => {
   return (
     <div>
+     <Navbar />
       <Routes>
 
      <Route path='/' element={
       <>
-        <Navbar />
+       
       <Home />
       <AboutSection />
       <VisionMission />
@@ -33,7 +35,7 @@ const App = () => {
      path='/about/company-overview'
      element={
       <>
-      <Navbar />
+
      <Overview />
      <Footer />
       </>
@@ -44,7 +46,7 @@ const App = () => {
      path='/about/resources'
      element={
       <>
-      <Navbar />
+
      <HumanResource />
      <Footer />
       </>
@@ -53,16 +55,18 @@ const App = () => {
 
       
        <Route
-     path='/director-message'
+     path='/about/director-message'
      element={
       <>
-      <Navbar />
-   
+  
+     <DirectorMessage />
       </>
      }
       />
 
       </Routes>
+
+      <Footer />
     </div>
   )
 }

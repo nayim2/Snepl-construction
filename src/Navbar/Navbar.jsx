@@ -21,17 +21,15 @@ const Navbar = () => {
       sub: [
         { label: "Fabrication", link: "/services/products" },
         { label: "Eriction", link: "/services" },
-        { label: "Solutions", link: "/services/solutions" },
+        { label: "Comissioning", link: "/services/solutions" },
+        { label: "Hydraulic Gas", link: "/services/solutions" },
+        { label: "Oil & water lines", link: "/services/solutions" },
       ],
     },
 
     {
-      name: "Infrastructure",
-      sub: [
-        { label: "Facilities", link: "/infrastructure/facilities" },
-        { label: "Capabilities", link: "/infrastructure/capabilities" },
-        { label: "Technologies", link: "/infrastructure/technologies" },
-      ],
+      name: "Our Customers",
+      link:'/'
     },
 
     {
