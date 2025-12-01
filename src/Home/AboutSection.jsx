@@ -10,11 +10,16 @@ const AboutSection = () => {
         <div>
           <h2 className="text-4xl font-bold mb-4">Who We Are</h2>
           <p className="text-gray-600 leading-relaxed">
-            With over 15 years of experience in industrial projects, our execution team
-            understands every challenge of the field — from managing site logistics to
-            handling critical alignments under tight schedules. Our workforce is our
-            greatest asset, consisting of engineers, supervisors, and highly skilled
-            technicians trained in the latest industrial standards.
+            With over 15 years of experience in the industrial construction and power sector,
+            SNEPL Construction has earned a strong reputation for executing complex projects with
+            precision, safety, and speed. Our expertise spans across all types of fabrication
+            work including ducting, casing, and structural fabrication, along with piping projects
+            such as IBR piping, cooling water piping, oil and gas piping.
+            <br /><br />
+            Our workforce is our greatest strength — a skilled team of engineers, supervisors,
+            and technicians trained in the latest industrial standards. From equipment erection
+            and boiler erection to ash silo execution and complete electrical installation works,
+            we ensure every project is delivered with accuracy and long-term reliability.
           </p>
 
           <img
@@ -28,15 +33,16 @@ const AboutSection = () => {
         <div>
           <h2 className="text-4xl font-bold mb-4">Why Us</h2>
           <p className="text-gray-600 leading-relaxed">
-            We deploy modern planning and monitoring systems that ensure proactive risk
-            management, progress tracking, and timely completion — even in complex
-            multi-stage projects. SNEPL Construction follows a strict Zero-Accident
-            safety policy. Our safety team conducts toolbox meetings and daily audits,
-            ensures PPE compliance, and enforces all statutory safety guidelines across
-            every site.
+            Projects at SNEPL are driven by strong planning, modern monitoring systems, and a
+            strict Zero-Accident safety policy. Our dedicated safety team conducts toolbox
+            meetings, daily audits, PPE compliance checks, and enforces statutory safety
+            guidelines across every site to ensure risk-free execution.
             <br /><br />
-            From fabrication to installation and commissioning, we handle all phases
-            in-house — ensuring complete control over quality, cost, and timelines.
+            From fabrication and piping to boiler erection, equipment erection, ash silo
+            installation, and complete electrical works — all phases are handled in-house.
+            This end-to-end control gives us unmatched command over quality, timelines,
+            and cost efficiency, making SNEPL a trusted partner for turnkey industrial projects
+            across India.
           </p>
 
           <img

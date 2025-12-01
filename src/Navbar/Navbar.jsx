@@ -19,17 +19,19 @@ const Navbar = () => {
     {
       name: "Services",
       sub: [
-        { label: "Fabrication", link: "/services/products" },
-        { label: "Eriction", link: "/services" },
-        { label: "Comissioning", link: "/services/solutions" },
-        { label: "Hydraulic Gas", link: "/services/solutions" },
-        { label: "Oil & water lines", link: "/services/solutions" },
+        { label: "Fabrication", link: "/services/fabrication" },
+        { label: "Comissioning", link: "/services/comission" },
+        { label: "Piping Works", link: "/services/piping" },
+        { label: "Electrical works", link: "/services/electrical-works" },
+        { label: "Boiler Erection", link: "/services/boiler-erection" },
+        { label: "Equipment Erection", link: "/services/equipment-erection" },
+        { label: "Ash Silo", link: "/services/ash-silo" },
       ],
     },
 
     {
       name: "Our Customers",
-      link:'/'
+      link:'/customers'
     },
 
     {
@@ -37,7 +39,7 @@ const Navbar = () => {
       sub: [
         { label: "Photos", link: "/gallery/photos" },
         { label: "Videos", link: "/gallery/videos" },
-        { label: "Events", link: "/gallery/events" },
+        { label: "Broschure", link: "/gallery/events" },
       ],
     },
 

@@ -3,13 +3,12 @@ import { assets } from "../assets/assets";
 
 const DirectorMessage = () => {
   return (
-    <section className="w-full bg-[#f7f9fc] py-12 md:py-16 px-5 md:px-16">
+    <section className="w-full py-12 md:py-16 px-5 md:px-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        
         {/* Director Photo */}
         <div className="flex justify-center">
           <img
-            src={assets.mission}
+            src={assets.director}
             alt="Director"
             className="w-[260px] h-[320px] md:w-[330px] md:h-[400px] object-cover rounded-2xl shadow-lg"
           />
@@ -23,19 +22,21 @@ const DirectorMessage = () => {
           <div className="w-20 h-[3px] bg-blue-600 mb-6"></div>
 
           <p className="text-gray-700 text-lg leading-relaxed mb-5">
-            “At our organization, we believe in building lasting relationships
-            through dedication, transparency, and innovation. Every step we take
-            is towards delivering quality and exceeding expectations. Together,
-            we aim to create a better future for our clients and the communities
-            we serve.”
+            “At SNEPL Construction, we take pride in building the nation’s
+            industrial backbone through precision, safety, and engineering
+            excellence. Every project we undertake reflects our commitment to
+            quality fabrication, erection, and commissioning of power plant and
+            industrial systems. For us, every project is more than a contract —
+            it is a long-term partnership built on trust, accountability, and
+            timely delivery. Together, we continue to strengthen India’s
+            industrial future, one successful execution at a time.”
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900">
-            Mr. John Doe
+            Mr. Subhakanta Sahoo
           </h3>
           <p className="text-gray-600">Managing Director</p>
         </div>
-
       </div>
     </section>
   );
