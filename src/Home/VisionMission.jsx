@@ -111,7 +111,7 @@ const MissionVision = () => {
               }`}
             >
               <p className="text-gray-600 leading-relaxed">
-                With over 15 years of experience in industrial projects, we have
+                With over 25 years of experience in industrial projects, we have
                 grown through dedication, engineering excellence, and a commitment to
                 safe & efficient execution on every site.
               </p>

@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div>
           <h2 className="text-4xl font-bold mb-4">Who We Are</h2>
           <p className="text-gray-600 leading-relaxed">
-            With over 15 years of experience in the industrial construction and power sector,
+            With over 25 years of experience in the industrial construction and power sector,
             SNEPL Construction has earned a strong reputation for executing complex projects with
             precision, safety, and speed. Our expertise spans across all types of fabrication
             work including ducting, casing, and structural fabrication, along with piping projects

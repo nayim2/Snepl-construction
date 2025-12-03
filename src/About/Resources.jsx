@@ -1,5 +1,12 @@
 import React from "react";
-import { FaUserTie, FaHardHat, FaShieldAlt, FaTools, FaUsers, FaCheckCircle } from "react-icons/fa";
+import {
+  FaUserTie,
+  FaHardHat,
+  FaShieldAlt,
+  FaTools,
+  FaUsers,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 const teamData = [
   {
@@ -12,7 +19,12 @@ const teamData = [
   {
     title: "QC Engineers",
     icon: <FaTools className="text-red-500 text-3xl mb-3" />,
-    members: ["Niranjan Sahoo", "P.K. Barik", "Saheswar Sahoo"],
+    members: [
+      "A.K. Mohanty",
+      "Niranjan Sahoo",
+      "P.K. Barik",
+      "Saheswar Sahoo"
+    ],
   },
   {
     title: "Safety Officers",
@@ -22,12 +34,15 @@ const teamData = [
   {
     title: "Senior Engineer",
     icon: <FaHardHat className="text-red-500 text-3xl mb-3" />,
-    members: ["Satya Narayan Bhoi"],
+    members: ["Sarbeswar Sahoo", "Satya Narayan Bhoi"],
   },
   {
     title: "Engineers",
     icon: <FaHardHat className="text-red-500 text-3xl mb-3" />,
-    members: ["A. K. Rout", "D. Pradhan"],
+    members: [
+      "A. K. Rout",
+      "D. Pradhan"
+    ],
   },
   {
     title: "Assistant Engineer",
@@ -37,7 +52,17 @@ const teamData = [
   {
     title: "Supervisors",
     icon: <FaUsers className="text-red-500 text-3xl mb-3" />,
-    members: ["Radhakant Sahoo", "Santosh Das", "Keshav Biswal"],
+    members: [
+      "Nrusingh Charan Das",
+      "Birendra Narayan Patra",
+      "Biswa Ranjan Sahoo",
+      "Tankadhara Sahu",
+      "Parbin Kumar Berman",
+      // additional from manpower list
+      "Radhakant Sahoo",
+      "Santosh Das",
+      "Keshav Biswal"
+    ],
   },
 ];
 
@@ -51,13 +76,11 @@ const highlights = [
 const HumanResource = () => {
   return (
     <div className="w-full max-w-[1300px] mx-auto px-4 py-20">
-
-      {/* Title */}
       <h2 className="text-4xl font-bold text-center text-gray-900">
         Our Human Resource Strength
       </h2>
       <p className="text-center text-gray-600 mt-3 max-w-[850px] mx-auto">
-        Our people are the backbone of our success — a skilled and dedicated workforce 
+        Our people are the backbone of our success — a skilled and dedicated workforce
         driving quality, safety and engineering excellence across India.
       </p>
 
@@ -95,7 +118,6 @@ const HumanResource = () => {
           ))}
         </ul>
 
-        {/* Bottom Text */}
         <p className="text-center text-gray-700 mt-8 text-lg max-w-[850px] mx-auto leading-relaxed">
           <span className="font-semibold text-gray-900">
             Our team is more than a workforce —
@@ -105,7 +127,6 @@ const HumanResource = () => {
         </p>
       </div>
 
-      {/* Tagline */}
       <h3 className="text-center text-2xl font-semibold text-red-600 mt-14">
         “SNEPL – Excelling Everyday in Engineering”
       </h3>
